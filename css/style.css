@@ -46,7 +46,7 @@ header > h1 {
      
 }
 span#burger{
-    background-color: var(--roxo02);
+    background-color: black;
     display: block;
     color: var(--cor02);
     text-align: center;
@@ -55,7 +55,7 @@ span#burger{
     
 }
 span#burger:hover{
-    color: var(--roxo02);
+    color: black;
     background-color: var(--cor02);
     cursor: pointer;
 
@@ -66,7 +66,7 @@ nav {
 }
 nav > ul{
     list-style-type: none;
-    background-color: var(--roxo02);
+    background-color:black;
     
 }
 
@@ -77,13 +77,14 @@ nav > ul > li > a {
     padding: 10px;
     color: var(--cor02);
     text-decoration: none;
+    text-align: center;
         
     
     
 }
 nav > ul > li > a:hover{
     background-color:var(--cor02);
-    color: var(--roxo02);
+    color: black;
 }
 
 
@@ -105,13 +106,20 @@ nav > ul > li > a:hover{
         display: block;
         text-align: center;           
         height: 40px;
+        background-color: black;
        
     }
     nav > ul > li {
         display: inline-block;
-        background-color: var(--roxo02);
-        color: var(--cor02); 
         
+        color: var(--cor02);        
 
+    }
+    nav > ul > li > a {
+        background-color: black;
+    }
+    nav > ul > li > a:hover{
+        background-color:var(--cor02);
+        color: var(--roxo02);
     }
 }
