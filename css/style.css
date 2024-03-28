@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Paleta de cores */
+:root {
+        --coro1: #FFD56C;
+        --cor02: #FFCC4A;
+        --cor03: #DAA520;
+        --cor04: #6D5109;
+        --cor05: #1C1504;
+        --roxo01: #A175F4;
+        --roxo02: #4B2295;
+        --azclaro01: #6CCAF2;
+        --azclaro02: #196889;
+}
+
+body {
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+}
+header {
+    background-image: url('../img/Topo.jpg');
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    text-align: center; 
+    position: relative;
+}
+header > h1 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;   
+    background-color: var(--coro1); 
+    border-radius: 15px;
+    padding: 10px;
+     
+}
+span#burger{
+    background-color: var(--roxo02);
+    display: block;
+    color: var(--cor02);
+    text-align: center;
+    padding: 10px;
+   
+    
+}
+span#burger:hover{
+    color: var(--roxo02);
+    background-color: var(--cor02);
+    cursor: pointer;
+
+}
+nav {
+    display: none;
+       
+}
+nav > ul{
+    list-style-type: none;
+    background-color: var(--roxo02);
+    
+}
+
+
+
+nav > ul > li > a {
+    display: block;
+    padding: 10px;
+    color: var(--cor02);
+    text-decoration: none;
+        
+    
+    
+}
+nav > ul > li > a:hover{
+    background-color:var(--cor02);
+    color: var(--roxo02);
+}
+
+
+
+
+
+
+
+/*------------------------DISPOSITIVOS MAIORES___________________________*/
+
+
+@media screen and (min-width: 768px) {
+
+    span#burger{
+        display: none;
+
+    }
+    nav {
+        display: block;
+        text-align: center;           
+        height: 40px;
+       
+    }
+    nav > ul > li {
+        display: inline-block;
+        background-color: var(--roxo02);
+        color: var(--cor02); 
+        
+
+    }
+}
