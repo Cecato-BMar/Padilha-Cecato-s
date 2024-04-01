@@ -13,7 +13,7 @@
 
 /* Paleta de cores */
 :root {
-        --coro1: #FFD56C;
+        --cor01: #FFD56C;
         --cor02: #FFCC4A;
         --cor03: #DAA520;
         --cor04: #6D5109;
@@ -134,29 +134,55 @@ nav > ul > li > a:hover{
 
 .card {
     margin: 30px 5px 5px 5px;
+    padding-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.836);
     border-radius: 20px;
     border-color: var(--cor04);
     border-width: 10px;    
     box-shadow: 2px 2px 2px solid black;
-    color: var(--coro1);
-    text-align: center;
+    color: var(--cor01);
+    text-align: center;    
 
 }
 .card > h1 {
     background-color: var(--cor02);
     color: black;
     border-radius: 20px 20px 0px 0px ;
-
 }
-.card > p {
-    background-color: white;
-    color: black;
+.card > h2 {
+    text-decoration: underline;
+    font-weight: bolder;
+    padding: 10px;
+}
+.card > h3 {
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px;
+}
+.card > p {   
     border-radius: 0px 0px 20px 20px ;
     padding: 10px 0px 10px 0px ;
+}    
+.card > p > a {   
+    background-color: var(--cor02);
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 40px;
 }
 
-/*------------------------DISPOSITIVOS MAIORES___________________________*/
+/*------------------------RODAPÉ------------------------------------------*/
+footer {
+    background-color: var(--cor03);
+    color: white;
+    text-align: center;
+    padding:10px ;
+    margin-top: 10px;   
+
+}
+/*------------------------DISPOSITIVOS MAIORES----------------------------*/
 
 
 @media screen and (min-width: 768px) {
