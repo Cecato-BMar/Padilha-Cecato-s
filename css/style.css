@@ -89,8 +89,7 @@ nav > ul > li > a {
     text-decoration: none;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-        
-    
+ 
     
 }
 nav > ul > li > a:hover{
@@ -148,6 +147,7 @@ nav > ul > li > a:hover{
     background-color: var(--cor02);
     color: black;
     border-radius: 20px 20px 0px 0px ;
+    padding: 10px;
 }
 .card > h2 {
     text-decoration: underline;
@@ -172,6 +172,38 @@ nav > ul > li > a:hover{
     text-decoration: none;
     margin-bottom: 40px;
 }
+/*------------------------Redes Sociais------------------------------------------*/
+.redes  {
+    margin: 30px 5px 100px 5px;
+    padding-bottom: 15px;
+    background-color: var(--cor02);
+    border-radius: 20px;
+    border-color: var(--cor04);
+    border-width: 10px;    
+    box-shadow: 2px 2px 2px solid black;
+    color: var(--cor01);
+    text-align: center;   
+}
+.redes > h1 {
+    background-color: rgba(0, 0, 0, 0.836);
+    color: var(--cor02);
+    border-radius: 20px 20px 0px 0px ;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.redes > a {
+    
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+}
+.rd-img {
+    width: 20%;
+    height: auto;
+    padding-left: 10px;
+}
 
 /*------------------------RODAPÉ------------------------------------------*/
 footer {
@@ -179,7 +211,9 @@ footer {
     color: white;
     text-align: center;
     padding:10px ;
-    margin-top: 10px;   
+    margin-top: 10px;
+    
+    
 
 }
 /*------------------------DISPOSITIVOS MAIORES----------------------------*/
@@ -216,9 +250,18 @@ footer {
         margin: 0 auto;
         margin-top: 20px;
        }
-    .card {
+    .card  {
         max-width: 1000px;
         margin: 0 auto;
         margin-top: 20px;
-    }   
+    } 
+    .redes {
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-top: 20px;
+    } 
+    .rd-img {
+        width: 50px;
+        height: auto;
+    }  
 }

@@ -7,10 +7,10 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Passion+One&family=Passions+Conflict&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Passion+One&family=Passions+Conflict&family=Sriracha&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         
             <h1>Padilha Cecato's Contabilidade</h1>
@@ -19,17 +19,17 @@
     </header>
     <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
     <nav id="itens">
-        <p>
-          <p></p><a href="#">Início</a></p>
-          <p></p><a href="#">Sobre</a></p>
-          <p></p><a href="#">Serviços</a></p>
-          <p></p><a href="#">Contato</a></p>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
       <div class="menu-mobile">
         <span class="icon-menu"></span>
       </div>
-    </div>
+    
     
     <main>
         <section class="sobre-mim">
@@ -44,22 +44,22 @@
           <h1>Serviços</h1>   
             <h2>Declaração de imposto de renda</h2>
               <h3>Pessoa física:</h3>
-                <p>Preenchimento e entrega da DIRPF;<br>
+                <p>enchimento e entrega da DIRPF;<br>
                   Orientação sobre deduções e abatimentos;<br>
                   Cálculo de imposto a pagar ou restituir.
                 </p>
               <h3>Pessoa jurídica:</h3>
-                <p>Preenchimento e entrega da Declaração de Ajuste Anual (DAA); <br>
+                <p>enchimento e entrega da Declaração de Ajuste Anual (DAA); <br>
                   Cálculo de impostos e contribuições; <br>
                   Orientação sobre legislação fiscal.
                 </p>
             <h2>Abertura e encerramento de empresas</h2> 
-              <p>Assessoria na escolha do tipo societário; <br>
+              <p>essoria na escolha do tipo societário; <br>
                 Elaboração de documentos para abertura e registro da empresa; <br>
                 Encerramento de empresas de forma legal e segura.
               </p>              
             <h2>Emissão de nota fiscal</h2>
-                <p>Implementação de sistema de emissão de nota fiscal eletrônica (NF-e); <br>
+                <p>>Implementação de sistema de emissão de nota fiscal eletrônica (NF-e); <br>
                   Treinamento para emissão de notas fiscais; <br>
                   Suporte técnico e orientação sobre legislação fiscal.                  
                 </p>
@@ -77,12 +77,14 @@
               Assessoria em gestão financeira.</p>
 
         </section>
-        <section>
-
-          
+        <section class="redes">
+          <h1>Acesse nossas redes Sociais</h1>
+          <a href="mailto:artsdirosinha@gmail.com"><img class="rd-img" src="img/email.png" alt="email"></a>
+          <a href=""><img class="rd-img" src="img/insta.png" alt="instagram"></a>
+          <a href="https://api.whatsapp.com/send?phone=5513996927901&text=Olá,%20estou%20entrando%20em%20contato%20através%20do%20site." target="_blank"><img class="rd-img" src="img/w2.png" alt="whatsapp"></a>          
         </section>
     </main>
-    <footer>     
+    <footer>
       <p>Copyright &copy; ; 2024 - Priscylla Rosa Cecato</p>
       <p>Site desenvolvido por <strong>BMar Dev</strong> 2024 - Ricardo Cecato</p>
     </footer>
